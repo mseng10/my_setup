@@ -1,0 +1,13 @@
+[user]
+    name = <name>
+    email = <email>
+[alias]
+    c = commit
+    ch = checkout
+    b = branch
+    nb = checkout -b
+    l = log
+    s = status
+    a = add
+    p = push
+    pl = pull
