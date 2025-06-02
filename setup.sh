@@ -100,6 +100,12 @@ sudo systemctl start postgresql
 sudo systemctl enable postgresql
 sudo systemctl status postgresql --no-pager || echo "Warning: PostgreSQL service might not be running. Check 'sudo systemctl status postgresql'."
 
+# Install Java 21
+echo ""
+echo "Installing Java 21"
+sudo apt install openjdk-21-jre-headless
+sudo apt install maven
+
 # --- Configure Git ---
 echo ""
 echo "Configuring Git..."
